@@ -20,7 +20,7 @@ request.
 ### Quota and character length Limits
 
 You can check your quota limits by going to [your google cloud project's Perspective API page](https://console.cloud.google.com/apis/api/commentanalyzer.googleapis.com/quotas), and check 
-your projects quota usage at 
+your project's quota usage at 
 [the cloud console quota usage page](https://console.cloud.google.com/iam-admin/quotas).
 
 The maximum text size per request is 3000 bytes.
@@ -147,7 +147,7 @@ with little notice (typically a few months).
 
 ### Versions
 
-Models are versioned. We re-retrain them and release a new version when we get enough new trusted examples, either from [our demo](https://www.perspectiveapi.com) or from other clients of the API who ask us use their examples to make the models better (see the `AnalyzeComment` and `SuggestCommentScore` methods below). To use a specific version of a model, use a model name of the form `MODEL_NAME@VERSION_NUMBER`. If a request does not specify a `@VERSION_NUMBER` at the end of a model name, it will use the latest version of the model. The latest version numbers are in the following table.
+Models are versioned. We re-retrain them and release a new version when we get enough new trusted examples, either from [our demo](https://www.perspectiveapi.com) or from other clients of the API who ask us to use their examples to make the models better (see the `AnalyzeComment` and `SuggestCommentScore` methods below). To use a specific version of a model, use a model name of the form `MODEL_NAME@VERSION_NUMBER`. If a request does not specify a `@VERSION_NUMBER` at the end of a model name, it will use the latest version of the model. The latest version numbers are in the following table.
 
 Model Attribute Name | Latest Version Name
 ---------------------|-----------------------
@@ -168,7 +168,7 @@ OBSCENE              | OBSCENE@2
 SPAM                 | SPAM@1
 UNSUBSTANTIAL        | UNSUBSTANTIAL@2
 
-Announcements about new  models and versions of models (and depricated stuff) are sent to the: [`perspective-announce email group`](https://groups.google.com/forum/#!forum/perspective-announce); subscribe to stay up to date.
+Announcements about new  models and versions of models (and deprecated stuff) are sent to the: [`perspective-announce email group`](https://groups.google.com/forum/#!forum/perspective-announce); subscribe to stay up to date.
 
 ## Methods
 
@@ -445,7 +445,7 @@ versions.
 Here's an example with the [Python
 version](https://developers.google.com/api-client-library/python/start/get_started)
 of the Google API Client Libraries. First, install the library following [the
-directions here](https://github.com/google/google-api-python-client).)
+directions here](https://github.com/google/google-api-python-client).
 
 Then try this:
 
