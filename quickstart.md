@@ -15,7 +15,7 @@
     requests.
 
 3.  **Enable the API.** Once you've been whitelisted, you'll be able to enable
-    the API in for your project. Go to the [Perspective API's overview
+    the API for your project. Go to the [Perspective API's overview
     page](https://console.developers.google.com/apis/api/commentanalyzer.googleapis.com/overview)
     and click **_Enable_**. If you haven't yet been whitelisted, you'll get a
     permissions error at this point.
@@ -60,7 +60,7 @@
     The curl command issued an API request to analyze the `comment.text` field
     for the `requestedAttributes`, in this case the `TOXICITY` model.
 
-    In the response ,the field `attributeScores.TOXICITY.summaryScore.value`
+    In the response, the field `attributeScores.TOXICITY.summaryScore.value`
     gives the toxicity model's score for the comment. In this case, the comment
     got a 0.9 out of 1.0. A less mean-spirited comment should get a lower score.
     
